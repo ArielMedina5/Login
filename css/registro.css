@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'pirulen';
+    src: url("../Fuentes/pirulen.ttf") format("opentype");
+}
+
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Pirulen;
+}
+
+ body{
+
+ 	width: auto;
+ 	height: auto;
+
+}
+#contenedor{
+	background-image: url(../imgs/vs5.jpg);
+	height: 800px;
+	display:flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+#sh{
+	margin:5%;
+	width: 35%;
+	height: 600px;
+	background-color: rgba(255,255,255,0.46);
+}
+.input{
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 20px;
+    height: 20px;
+    width:85%;
+    padding: 10px;
+    background-color: rgba(0, 41, 38, 0.35);
+	border:1px solid rgba(255,255,255,0.5);
+}
+h1{
+	text-align: center;
+	color: white;
+	margin: 20px 0;
+
+}
+::placeholder{
+	color: white;
+}
+
+.sexo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #474747;
+}
+.paralelogramo {
+	margin: 5% auto;
+     width: 35%; 
+     height: 40px; 
+      color: white;
+     background:red;
+     -webkit-transform: skew(20deg);
+     -moz-transform: skew(20deg);
+     -ms-transform: skew(20deg);
+     -o-transform: skew(20deg);
+     transform: skew(-20deg);
+}
+input[type="radio"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;    /* Firefox */
+  -ms-appearance: checkbox;     /* not currently supported */
+}
